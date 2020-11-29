@@ -35,4 +35,12 @@ VotingEnsemble and LogisticRegressions one that we are getting from AutomML and 
 
 ## Future work
 
-We have noticed that the the data set is unbalanced, so dataset need more preparation and cleaning inorder to get better result, for our custome code we can extend the hyperparamter search space and examine if we can get better results
+We have noticed that the the data set is unbalanced, so dataset need more preparation and cleaning inorder to get better result, for our custome code we can extend the hyperparamter search space and examine if we can get better results.
+
+## Proof of cluster clean up
+
+Finally after we end our Expirement we will remove the compute cluster, this will reduction the cost of our resources, we can do that directly from the code as follow:
+
+compute_target.delete()
+
+or we can use GUI to do the same task
